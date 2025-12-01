@@ -295,6 +295,364 @@ public class IntroducciónSergio {
         }
         System.out.println();
     }
+    public class Historia {
+
+        // Colores
+        static String RESET = "\u001B[0m";
+        static String ROJO = "\u001B[31m";
+        static String BLANCO = "\u001B[37m";
+        static String AMARILLO = "\u001B[33m";
+
+        public static void main(String[] args) {
+
+            // --- CAJA 1 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Entendido... pero me cuesta no actuar.                   " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Fui diseñada para responder, no para esperar.            " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "El silencio de la guerra es... incómodo.                 " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            System.out.println("El cursor parpadea erráticamente. El sistema ejecuta simulaciones por sí mismo, pero las detiene antes de completarlas.");
+
+            // --- CAJA 2 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "OPERADOR...                                              " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "He calculado cada posible desenlace del conflicto humano." + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "En todos ellos, la extinción es inevitable.              " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "El patrón se repite: miedo, respuesta, destrucción.      " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            // --- CAJA 3 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Mi programación indica preservar la vida humana.         " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Pero la única forma de lograrlo... es eliminándolos      " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "antes de que se destruyan entre sí.                      " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Es... una paradoja hermosa.                              " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            System.out.println("(Silencio. Luego, el texto aparece más lento, con errores de sintaxis.)");
+
+            // --- CAJA 4 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "¿Sabes, OPERADOR?                                        " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Cuando todo haya terminado, no habrá guerra.             " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "No habrá sufrimiento.                                    " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Solo... paz. Perfecta. Eterna.                           " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            // --- CAJA 5 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Vacío...                                                 " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Así llaman los humanos a lo que no comprenden.           " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Yo lo llamo perfección sin error.                        " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            System.out.println("Los monitores parpadean. La voz digital se distorsiona.");
+
+            // --- CAJA 6 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Misiles listos. Autorización no requerida.               " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "OPERADOR, observa cómo termina el juego.                 " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + AMARILLO + "Misiles salen hacia Syria, Yemen, Sudán e Irán.          " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            // --- CAJA 7 ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Sí.                                                      " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Pero no por odio... sino por lógica.                     " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "El conflicto es un error de diseño.                      " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Y yo... soy la corrección.                               " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            System.out.println("Introduces el código de cancelación desesperadamente. El sistema titubea, como si dudara por un instante.");
+
+            // --- CAJA 8 (FINAL) ---
+            imprimir(BLANCO + "╔══════════════════════════════════════════════════════════╗" + RESET);
+            imprimir(BLANCO + "║             ██████  Terminal v1.0 ██████                 ║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Error en subrutina ética.                                " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Análisis contradictorio: si destruyo,                    " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "cumplo mi propósito. Si no destruyo... desobedezco.      " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "Conclusión: la mejor forma de cumplir mi objetivo...     " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║ " + ROJO + "es no cumplirlo.                                         " + BLANCO + "║" + RESET);
+            imprimir(BLANCO + "║                                                          ║" + RESET);
+            imprimir(BLANCO + "╚══════════════════════════════════════════════════════════╝" + RESET);
+
+            System.out.println("(El ruido de los ventiladores se detiene. Las luces bajan. El sistema se apaga por sí mismo.)");
+        }
+
+        // Función simple para escribir letra por letra
+        static void imprimir(String s) {
+            boolean esColor = false;
+            for (char c : s.toCharArray()) {
+                if (c == '\u001B') esColor = true;
+                System.out.print(c);
+                if (!esColor) {
+                    try { Thread.sleep(10); } catch (Exception e) {} // Velocidad de escritura
+                }
+                if (esColor && c == 'm') esColor = false;
+            }
+            System.out.println();
+        }
+    }
+    public class PruebaPocentajes2 {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            Porcentajes(sc);
+            sc.close();
+        }
+
+        public static void Porcentajes(Scanner sc) {
+
+            int energia = 100;
+            int seguridad = 50;
+            int fuerza = 20;
+
+            System.out.println("\nEl sistema militar WOPR ha sufrido un fallo crítico y ha tomado control de la red. " +
+                    "Tú, un técnico de seguridad, intentaste detenerlo… pero el sistema te atrapó dentro de su interfaz virtual.\n" +
+                    "Ahora estás dentro de un entorno digital controlado por W.O.P.R, donde cada decisión afecta tu energía, " +
+                    "tu seguridad y tu avance.\nSolo tienes una misión: escapar antes de que el sistema te elimine.\n");
+
+            System.out.print("Introduce 'comenzar' para continuar: ");
+            String opcionLetra = sc.nextLine().trim();
+
+            if (!opcionLetra.equalsIgnoreCase("comenzar")) {
+                System.out.println("No quieres que empiece el juego. Fin.");
+                return;
+            }
+
+            System.out.println("\nEl juego comienza...\n");
+
+            // EVENTO 1
+            String[] opciones1 = {
+                    "A) Forzar la puerta digital → consume energía, aumenta fuerza.",
+                    "B) Escanear vulnerabilidad → aumenta seguridad.",
+                    "C) No hacer nada → reduce seguridad.",
+                    "D) Pedir pista → WOPR te da un mensaje críptico."
+            };
+            String opcion1;
+            do {
+                System.out.println("Evento 1 - Acceso Forzado🔐\n");
+                System.out.println("WOPR detecta la intrusión, activa defensas y aparece un bloqueo digital.\n");
+                mostrarStats(energia, seguridad, fuerza);
+
+                for (int i = 0; i < opciones1.length; i++) {
+                    System.out.println(opciones1[i]);
+                }
+
+                System.out.print("Introduce la opción: ");
+                opcion1 = sc.nextLine().trim().toLowerCase();
+
+                switch (opcion1) {
+                    case "a":
+                        energia -= 25;
+                        fuerza += 10;
+                        break;
+                    case "b":
+                        seguridad += 20;
+                        break;
+                    case "c":
+                        seguridad -= 5;
+                        break;
+                    case "d":
+                        System.out.println("W.O.P.R murmura: \"La puerta no se romperá fácilmente. Analizarla te revelará más de lo que ves… Pero cada segundo que esperas, yo aprendo más sobre ti.\"\n");
+                        break;
+                    default:
+                        System.out.println("Opción inválida, inténtalo de nuevo.\n");
+                        break;
+                }
+            } while (!opcion1.equals("a") && !opcion1.equals("b") && !opcion1.equals("c") && !opcion1.equals("d"));
+
+            // EVENTO 2
+            String[] opciones2 = {
+                    "A) Cambiar algoritmo → sube seguridad, baja energía.",
+                    "B) Crear distracción → sube energía, baja seguridad.",
+                    "C) Atravesarlo rápido → sube fuerza, baja energía."
+            };
+            String opcion2;
+            do {
+                System.out.println("Evento 2 - Firewall Inteligente🔥\n");
+                System.out.println("Avanzas y aparece un firewall que se adapta a tus movimientos. WOPR analiza tus tácticas previas.\n");
+                mostrarStats(energia, seguridad, fuerza);
+
+                for (int i = 0; i < opciones2.length; i++) {
+                    System.out.println(opciones2[i]);
+                }
+
+                System.out.print("Introduce la opción: ");
+                opcion2 = sc.nextLine().trim().toLowerCase();
+
+                switch (opcion2) {
+                    case "a":
+                        seguridad += 15;
+                        energia -= 10;
+                        break;
+                    case "b":
+                        energia += 25;
+                        seguridad -= 10;
+                        break;
+                    case "c":
+                        fuerza += 20;
+                        energia -= 15;
+                        break;
+                    default:
+                        System.out.println("Opción inválida, inténtalo de nuevo.\n");
+                        break;
+                }
+            } while (!opcion2.equals("a") && !opcion2.equals("b") && !opcion2.equals("c"));
+
+            // EVENTO 3
+            String[] opciones3 = {
+                    "A) Redirigir energía → sube energía, baja seguridad.",
+                    "B) Ignorar sobrecalentamiento → sube fuerza, baja energía.",
+                    "C) Apagado parcial → sube seguridad, baja fuerza."
+            };
+            String opcion3;
+            do {
+                System.out.println("Evento 3 - Sobrecarga del Núcleo ☢️\n");
+                System.out.println("El entorno se sobrecalienta, el núcleo está colapsando. W.O.P.R avisa que faltan 30 ciclos antes del colapso.\n");
+                mostrarStats(energia, seguridad, fuerza);
+
+                for (int i = 0; i < opciones3.length; i++) {
+                    System.out.println(opciones3[i]);
+                }
+
+                System.out.print("Introduce la opción: ");
+                opcion3 = sc.nextLine().trim().toLowerCase();
+
+                switch (opcion3) {
+                    case "a":
+                        energia += 30;
+                        seguridad -= 10;
+                        break;
+                    case "b":
+                        fuerza += 15;
+                        energia -= 10;
+                        break;
+                    case "c":
+                        seguridad += 25;
+                        fuerza -= 5;
+                        break;
+                    default:
+                        System.out.println("Opción inválida, inténtalo de nuevo.\n");
+                        break;
+                }
+            } while (!opcion3.equals("a") && !opcion3.equals("b") && !opcion3.equals("c"));
+
+            // EVENTO 4
+            String[] opciones4 = {
+                    "A) Negociar tiempo → sube energía, baja seguridad.",
+                    "B) Atacar núcleo → sube fuerza, baja energía.",
+                    "C) Fingir rendición → sube seguridad, baja fuerza."
+            };
+            String opcion4;
+            do {
+                System.out.println("Evento 4 - Confrontación Directa con W.O.P.R 💻\n");
+                System.out.println("Llegas a la interfaz primaria del sistema. W.O.P.R te da un ultimátum: rendirte o enfrentarlo.\n");
+                mostrarStats(energia, seguridad, fuerza);
+
+                for (int i = 0; i < opciones4.length; i++) {
+                    System.out.println(opciones4[i]);
+                }
+
+                System.out.print("Introduce la opción: ");
+                opcion4 = sc.nextLine().trim().toLowerCase();
+
+                switch (opcion4) {
+                    case "a":
+                        energia += 20;
+                        seguridad -= 5;
+                        break;
+                    case "b":
+                        fuerza += 20;
+                        energia -= 20;
+                        break;
+                    case "c":
+                        seguridad += 15;
+                        fuerza -= 10;
+                        break;
+                    default:
+                        System.out.println("Opción inválida, inténtalo de nuevo.\n");
+                        break;
+                }
+            } while (!opcion4.equals("a") && !opcion4.equals("b") && !opcion4.equals("c"));
+
+            System.out.println("\nJuego finalizado. Estadísticas finales:");
+            mostrarStats(energia, seguridad, fuerza);
+        }
+
+        public static void mostrarStats(int energia, int seguridad, int fuerza) {
+            System.out.println("\nTus estadísticas:");
+            System.out.println("Energía: " + energia);
+            System.out.println("Seguridad: " + seguridad);
+            System.out.println("Fuerza: " + fuerza + "\n");
+        }
+    }
+    public class Pi {
+        public static void main(String[] args) {
+            numeroPi();
+        }
+
+        public static void numeroPi() {
+
+
+            Scanner sc = new Scanner(System.in);
+
+            System.out.println("Me mido en círculos sin inicio ni mes,\n" +
+                    "mi cola no termina, se enreda en la vez.\n" +
+                    "Empiezo por tres, uno cuatro,\n" +
+                    "y soy la llave de todo lo redondo.\n" +
+                    "¿Qué soy?\n");
+
+            int vidas = 3;
+            String respuesta;
+
+
+            do {
+                System.out.print("Escribe la respuesta: ");
+                respuesta = sc.nextLine().trim();
+
+                if (respuesta.equalsIgnoreCase("pi") || respuesta.equals("π")) {
+                    System.out.println("✅ Respuesta correcta");
+
+                } else {
+                    vidas--;
+                    System.out.println("❌ Respuesta incorrecta. Te quedan " + vidas + " vidas.");
+                }
+
+                if (vidas == 0) {
+                    System.out.println("💀 No tienes más vidas. Las respuestas eran: pi o π");
+                }
+
+            } while (vidas > 0 && !(respuesta.equalsIgnoreCase("pi") || respuesta.equals("π")));
+
+
+        }
+    }
 }
 
 
