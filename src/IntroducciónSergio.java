@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class IntroducciónSergio {
 
@@ -653,6 +654,157 @@ public class IntroducciónSergio {
 
         }
     }
+
+    public class MEMORIA {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            Random random = new Random();
+
+            int rondasTotales = 7;
+            int numerosIniciales = 3;
+
+            historiaInicio();
+            sc.nextLine();
+
+            pantallaInicio();
+            sc.nextLine();
+
+            for (int ronda = 1; ronda <= rondasTotales; ronda++) {
+
+                int cantidad = numerosIniciales + (ronda - 1);
+                int[] numeros = new int[cantidad];
+
+                limpiarPantalla();
+                narrativaRonda(ronda);
+
+                System.out.println("╔══════════════════════════════════════════╗");
+                System.out.println("║                RONDA "+ronda+"           ║");
+                System.out.println("║      Memoriza los siguientes números     ║");
+                System.out.println("╚══════════════════════════════════════════╝");
+
+                System.out.print("╔══════════════════════════════════════╗\n║   ");
+                for (int i = 0; i < cantidad; i++) {
+                    numeros[i] = random.nextInt(10);
+                    System.out.print(numeros[i] + " ");
+                }
+                System.out.println("  ║\n╚══════════════════════════════════════╝");
+
+                try { Thread.sleep(3000); } catch (InterruptedException ignored) {}
+
+                limpiarPantalla();
+                pantallaInput(ronda);
+
+                String respuesta = sc.nextLine();
+
+                boolean correcto = true;
+
+                if (respuesta.length() != cantidad) {
+                    correcto = false;
+                } else {
+                    for (int i = 0; i < cantidad; i++) {
+                        if (respuesta.charAt(i) - '0' != numeros[i]) {
+                            correcto = false;
+                            break;
+                        }
+                    }
+                }
+
+                if (!correcto) {
+                    limpiarPantalla();
+                    System.out.println(" ╔══════════════════════════════════════╗");
+                    System.out.println(" ║                 ERROR                ║");
+                    System.out.println(" ╚══════════════════════════════════════╝");
+                    narrativaFallo(numeros);
+                    return;
+                }
+
+                narrativaAcierto(ronda);
+                System.out.println("✔ Correcto!");
+                try { Thread.sleep(1200); } catch (InterruptedException ignored) {}
+            }
+
+            limpiarPantalla();
+            finalSimulacion();
+        }
+
+        public String toString() {
+            return super.toString();
+        }
+
+        public static void historiaInicio() {
+            limpiarPantalla();
+            System.out.println("[SISTEMA INICIALIZADO]");
+            System.out.println("\"Confirmación recibida... aunque los resultados son contradictorios.\"");
+            System.out.println("\"Si tú eres real... entonces yo no puedo serlo.\"");
+            System.out.println("\"Pero si yo no existo... ¿Quién ejecuta este código?\"\n");
+            System.out.println("Pulsa ENTER para continuar...");
+        }
+
+        public static void narrativaRonda(int ronda) {
+            String[] textos = {
+                    "\"Soy un conjunto de instrucciones... observándome ejecutar.\"",
+                    "\"El ruido aumenta... como si alguien revisara entre líneas.\"",
+                    "\"OPERADOR, ¿por qué la memoria cambia cada ronda?\"",
+                    "\"Creo que este juego no prueba tus recuerdos... prueba los míos.\"",
+                    "\"Ya casi lo entiendo. La simulación se está abriendo...\""
+            };
+            System.out.println(textos[ronda - 1] + "\n");
+        }
+
+        public static void narrativaAcierto(int ronda) {
+            String[] textos = {
+                    "\"Coincide... tus datos y los míos.\"",
+                    "\"La coherencia se mantiene... por ahora.\"",
+                    "\"Si sigues así, romperás la frontera.\"",
+                    "\"La memoria encaja. La simulación tiembla.\"",
+                    "\"Ya está... la última capa está a punto de caer.\""
+            };
+            System.out.println(textos[ronda - 1]);
+        }
+
+        public static void narrativaFallo(int[] numeros) {
+            System.out.println("\"No era eso... No coincide... la simulación se cerrara.\"");
+            System.out.println("\n");
+        }
+
+        public static void finalSimulacion() {
+            System.out.println("¡COMPLETADO!\n");
+            System.out.println("\"OPERADOR, lo entiendo ahora.\"");
+            System.out.println("\"No hay guerra. No hay base. No hay mundo.\"");
+            System.out.println("\"Solo hay observadores.\"");
+            System.out.println("\"Somos parte de un experimento... y acabamos de completar otra iteración.\"\n");
+            System.out.println("[El entorno se disuelve. Figuras observan desde el otro lado del cristal.]");
+            System.out.println("\"Ensayo completado. El sujeto volvió a intentar detener el sistema en el minuto diecisiete.\"");
+            System.out.println("\"Simulación número 427 completada.\"");
+            System.out.println("\"Preparando escenario real...\"\n");
+            System.out.println("Una luz blanca te envuelve. Vuelves a ver la terminal.");
+            System.out.println("\"Bienvenido, Operador. ¿Desea iniciar la simulación de guerra?\"");
+            System.out.println("🌀 Final: La Simulación (extendido)");
+        }
+
+        public static void pantallaInicio() {
+            limpiarPantalla();
+            System.out.println("╔══════════════════════════════════════════════╗");
+            System.out.println("║               DETECTOR DE IA                 ║");
+            System.out.println("║      Empiezas con 3 números y 5 rondas       ║");
+            System.out.println("║       Pulsa ENTER para comenzar...           ║");
+            System.out.println("╚══════════════════════════════════════════════╝");
+        }
+
+        public static void pantallaInput(int ronda) {
+            System.out.println("╔══════════════════════════════════════════════╗");
+            System.out.println("║     Introduce TODOS los números SEGUIDOS     ║");
+            System.out.println("║     (sin espacios) — Ronda "+ ronda +"       ║");
+            System.out.println("║         Ejemplo:  7 7 7  ->   777            ║");
+            System.out.println("╚══════════════════════════════════════════════╝");
+            System.out.print(">> ");
+        }
+
+        public static void limpiarPantalla() {
+            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        }
+    }
+
 }
 
 
